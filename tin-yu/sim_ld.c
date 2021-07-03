@@ -1,6 +1,6 @@
 // INDIVIDUAL BASED LD SIMULATOR
 // TO BE COMPILED. R CMD SHLIB sim_ld.c
-// 02/07/2021
+// 002/07/2021
 #include <R.h>
 #include <Rdefines.h>
 #include <Rinternals.h>
