@@ -21,3 +21,18 @@ outputs for the dissimilarity of
 a specifically given estimate.
 You pick the true parameters, create the synthetic real data, then choose the 3 estimates
 and see what the value of the dissimilarity function is
+
+**multiple_tests_script.R** Here I want to do multiple (14 in my case) sequential Montecarlos
+for different true parameters
+ The script was run overnight and it is set up in a way such that it
+ saves each dataframe once that specific run of the MC algo is finished
+ The reults are stored in **test_table .csv**
+ 
+**uniform_assumption_test.R**  Here I am trying to see how much the uniform approximation holds, and the consequent
+ Normal test that I introduced to estimate the probability that 'real data can come
+from an estimated triplet'
+Essentially the question is, how many points do I need to simulate to get an empirical cdf that behaves well?
+ To this aim, for each i in [1,...,no_sim] , I store the value of the dissimilarity easure
+ After all the simulatons, I check to see whether the variance is the same
+ as the assumed one under the Uniform assumpution
+
