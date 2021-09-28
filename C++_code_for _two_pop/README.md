@@ -9,4 +9,4 @@ I have also split all the subfunctions in smaller cpp files to make them more di
 Those with the "main_body" suffix cannot be compiled independently as they rely on other helper functions.
 
 "R_sample_code.R" shows you how to import and run the simulator in R.
-You should download "simulation.cpp" and add the relevant path in the R script.
+You should download "simulation3.cpp" and add the relevant path in the R script.
