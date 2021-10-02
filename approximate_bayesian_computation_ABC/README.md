@@ -16,6 +16,8 @@ this will give almost never values with migr = 0, which isn't great
 **'old_compare.R'** was an earlier approach for a dissimilarity function, it uses squared distances
 and returns the mean squared error
 
+**'old_austin.R'** is the fixed dissimilarity function, essentially is compare function with the final line modified
+
 **specific_estimate_dissimilarity.R**
 outputs for the dissimilarity of
 a specifically given estimate.
